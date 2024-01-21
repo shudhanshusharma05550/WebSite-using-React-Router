@@ -1,7 +1,7 @@
 import React from 'react'
 import useTheme from '../../Contexts/Theme'
 
-export default function ThemeBtn({className}) {
+export default function ThemeBtn() {
     
     const {themeMode, darkTheme, lightTheme} = useTheme()
     const onButton = (e) => {

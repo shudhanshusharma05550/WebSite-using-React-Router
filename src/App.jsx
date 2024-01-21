@@ -28,7 +28,7 @@ function App() {
   return (
     <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>
       <Header />
-      <ThemeBtn  />
+      <ThemeBtn />
       <Outlet />
       <Footer />
     </ThemeProvider>
